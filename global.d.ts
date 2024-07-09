@@ -94,6 +94,71 @@ interface GoogleAnalytics {
   id?: string;
 }
 
+interface CustomTheme {
+  /**
+   * Primary color
+   */
+  primary?: string;
+
+  /**
+   * Secondary color
+   */
+  secondary?: string;
+
+  /**
+   * Accent color
+   */
+  accent?: string;
+
+  /**
+   * Neutral color
+   */
+  neutral?: string;
+
+  /**
+   * Base color of page
+   */
+  'base-100'?: string;
+
+  /**
+   * Border radius of rounded-box
+   */
+  '--rounded-box'?: string;
+
+  /**
+   * Border radius of rounded-btn
+   */
+  '--rounded-btn'?: string;
+}
+
+interface ThemeConfig {
+  /**
+   * Default theme
+   */
+  defaultTheme?: string;
+
+  /**
+   * Hides the switch in the navbar
+   */
+  disableSwitch?: boolean;
+
+  /**
+   * Hide the ring in Profile picture
+   */
+  displayAvatarRing?: boolean;
+
+  /**
+   * Available themes
+   */
+  themes?: Array<string>;
+
+  /**
+   * Custom theme
+   */
+  lightTheme?: CustomTheme;
+  darkTheme?: CustomTheme;
+}
+
 interface Config {
   /**
    * GitHub config
@@ -109,6 +174,11 @@ interface Config {
    * Google Analytics config
    */
   googleAnalytics?: GoogleAnalytics;
+
+  /**
+   * Theme config
+   */
+  themeConfig?: ThemeConfig;
 }
 
 declare const CONFIG: Config;
