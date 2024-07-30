@@ -66,8 +66,27 @@ interface GitHubProjects {
   };
 }
 
+interface ExternalProjects {
+  /**
+   * Header
+   */
+  header?: string;
+
+  /**
+   * Project list
+   */
+  projects?: {
+    title: string;
+    description?: string;
+    imageUrl?: string;
+    link: string;
+  }[];
+}
+
 interface Projects {
   github?: GitHubProjects;
+
+  external?: ExternalProjects;
 }
 
 interface SEO {
@@ -87,11 +106,153 @@ interface SEO {
   imageURL?: string;
 }
 
+interface Social {
+  /**
+   * LinkedIn
+   */
+  linkedin?: string;
+
+  /**
+   * X
+   */
+  X?: string;
+
+  /**
+   * ResearchGate username
+   */
+  researchGate?: string;
+
+  /**
+   * Facebook
+   */
+  facebook?: string;
+
+  /**
+   * Instagram
+   */
+  instagram?: string;
+
+  /**
+   * Reddit
+   */
+  reddit?: string;
+
+  /**
+   * Threads
+   */
+  threads?: string;
+
+  /**
+   * YouTube
+   */
+  youtube?: string;
+
+  /**
+   * Medium
+   */
+  medium?: string;
+
+  /**
+   * dev
+   */
+  dev?: string;
+
+  /**
+   * Stack Overflow
+   */
+  stackoverflow?: string;
+
+  /**
+   * Website
+   */
+  website?: string;
+
+  /**
+   * Telegram username
+   */
+  telegram?: string;
+
+  /**
+   * Phone
+   */
+  phone?: string;
+
+  /**
+   * Email
+   */
+  email?: string;
+}
+
+interface Portfolio {
+  /**
+   * Resume file url
+   */
+  resumeFileUrl?: string;
+  cvFileUrl?: string;
+  detailedPortfolioUrl?: string;
+}
+
+interface Experience {
+  company?: string;
+  position?: string;
+  from: string;
+  to: string;
+  companyLink?: string;
+  certificateLink?: string;
+}
+
+interface Certification {
+  body?: string;
+  name?: string;
+  givenBy?: string;
+  year?: string;
+  link?: string;
+}
+
+interface Education {
+  institution?: string;
+  institutionLink?: string;
+  degree?: string;
+  degreeLink?: string;
+  grade?: string;
+  from: string;
+  to: string;
+  achievements?: string[];
+}
+
+interface Publication {
+  title: string;
+  conferenceName?: string;
+  journalName?: string;
+  authors?: string;
+  link?: string;
+  description?: string;
+}
+
 interface GoogleAnalytics {
   /**
    * GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
    */
   id?: string;
+}
+
+interface Blog {
+  /**
+   * medium | dev
+   */
+  source?: string;
+
+  /**
+   * Username
+   */
+  username?: string;
+
+  /**
+   * How many articles to display
+   *
+   * Max is 10
+   */
+  limit?: number;
 }
 
 interface CustomTheme {
@@ -171,14 +332,69 @@ interface Config {
   base?: string;
 
   /**
+   * Projects config
+   */
+  projects?: Projects;
+
+  /**
+   * SEO config
+   */
+  seo?: SEO;
+
+  /**
+   * Social links
+   */
+  social?: Social;
+
+  /**
+   * Skill list
+   */
+  skills?: Array<string>;
+
+  /**
+   * Experience list
+   */
+  experiences?: Array<Experience>;
+
+  /**
+   * Certifications list
+   */
+  certifications?: Array<Certification>;
+
+  /**
+   * Education list
+   */
+  educations?: Array<Education>;
+
+  /**
+   * Publication list
+   */
+  publications?: Array<Publication>;
+
+  /**
+   * Portfolio
+   */
+  portfolio?: Portfolio;
+
+  /**
    * Google Analytics config
    */
   googleAnalytics?: GoogleAnalytics;
 
   /**
+   * Blog config
+   */
+  blog?: Blog;
+
+  /**
    * Theme config
    */
   themeConfig?: ThemeConfig;
+
+  /**
+   * Custom footer
+   */
+  footer?: string;
 }
 
 declare const CONFIG: Config;
