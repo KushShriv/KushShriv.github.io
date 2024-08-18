@@ -6,9 +6,9 @@ Check the Portfolio [here](https://kushshriv.github.io) on <br>
 
 ---
 
-This is my personal portfolio website where i display some of my projects, experience and education
+This is my personal portfolio website where i display some of my projects, experience, education and certifications.
 
-This is currently a single static page made with various React Components
+This is currently a single static page made with various extendable React Components.
 
 ## Tech Stack Used
 <div align='center'>
