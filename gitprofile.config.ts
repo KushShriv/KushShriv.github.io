@@ -95,7 +95,7 @@ const CONFIG = {
   },
   portfolio: {
     resumeFileUrl:
-      'https://drive.google.com/file/d/1ZN5r2TqQMoPVGkkEGiLwJrTiomoIkjKi/view?usp=sharing',
+      'https://drive.google.com/file/d/1vZqIans-_TQ95qf0L1oks-QsTCX7VEId/view?usp=sharing',
     cvFileUrl: '',
     detailedPortfolioUrl: 'https://kushshriv.github.io/portfolio',
   },
