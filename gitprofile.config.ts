@@ -18,9 +18,13 @@ const CONFIG = {
       },
       manual: {
         projects: [
+          'KushShriv/KushShriv.github.io',
           'KushShriv/Distributed-Load-Testing-System',
+          'KushShriv/Vercel-Clone-for-React-Projects',
           'KushShriv/Decentralised-Voting-System-Solidity-JS',
           'KushShriv/Monolithic-to-Microservices-CC',
+          'KushShriv/Secure-File-Sharing-Java-Spring',
+          'KushShriv/portfolio',
           'KushShriv/Python-Projects',
           'KushShriv/OnlineJobPostings-Infographic',
           'KushShriv/C-Projects',
@@ -62,7 +66,7 @@ const CONFIG = {
           description: `Developed a simple website to clone vercel's website deployment features using Typescript and React.`,
           imageUrl:
             'https://smlvqzf0a1b66cku.public.blob.vercel-storage.com/images/Vercel%20Logo-IMoeV2W33gFclXzAfZxmAHqtjBuTzP.png',
-          link: '',
+          link: 'https://github.com/KushShriv/Vercel-Clone-for-React-Projects',
         },
       ],
     },
