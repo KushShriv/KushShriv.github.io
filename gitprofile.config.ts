@@ -54,7 +54,7 @@ const CONFIG = {
         },
         {
           title:
-            'Migrating Monolithic Application to Microservices Architecture & Setting up Basic CI/CD',
+            'Monolithic to Microservices Application Migration with Basic CI/CD',
           description: `Migrated a Monolithic E-Commerce platform application built with Next.js to a microservices architecture using Docker
                         and K8s, then set up automated testing and deployment using Jenkins and GitHub Webhooks.`,
           imageUrl:
@@ -62,8 +62,8 @@ const CONFIG = {
           link: 'https://github.com/KushShriv/Monolithic-to-Microservices-CC',
         },
         {
-          title: 'Simple Vercel Clone',
-          description: `Developed a simple website to clone vercel's website deployment features using Typescript and React.`,
+          title: 'Vercel Clone for React Projects',
+          description: `Developed a website to clone Vercel’s website deployment features for React Projects using Typescript, Node.js, React, Redis and Cloudflare which has an architecture extensible to AWS services.`,
           imageUrl:
             'https://smlvqzf0a1b66cku.public.blob.vercel-storage.com/images/Vercel%20Logo-IMoeV2W33gFclXzAfZxmAHqtjBuTzP.png',
           link: 'https://github.com/KushShriv/Vercel-Clone-for-React-Projects',
@@ -95,7 +95,7 @@ const CONFIG = {
   },
   portfolio: {
     resumeFileUrl:
-      'https://drive.google.com/file/d/1VoTG6toOtnQc5mI-rK8y-AptKlo1wLiW/view?usp=drive_link',
+      'https://drive.google.com/file/d/1ZN5r2TqQMoPVGkkEGiLwJrTiomoIkjKi/view?usp=sharing',
     cvFileUrl: '',
     detailedPortfolioUrl: 'https://kushshriv.github.io/portfolio',
   },
