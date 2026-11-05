@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume · Kushaagra Shrivastava</title>
+  <meta name="description" content="Full resume: experience, education, skills and certifications.">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <script src="../assets/theme.js"></script>
+  <script src="../assets/socials.js" data-base="../"></script>
+  <script src="../assets/socials.js" data-base=""></script>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <a class="brand" href="../">Kushaagra Shrivastava</a>
+  <nav aria-label="Sections"><a href="#summary">Summary</a><a href="#experience">Experience</a><a href="#open-source">Open source</a><a href="#education">Education</a><a href="../">Home</a></nav>
+  <fieldset class="theme-control" id="theme" aria-label="Appearance" style="border:0;padding:0;border:1px solid var(--line);padding:3px">
+    <label><input type="radio" name="theme" value="dark" aria-label="Night"><span title="Night"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 13.1A8.5 8.5 0 0 1 10.9 3.5a8.5 8.5 0 1 0 9.6 9.6Z"/></svg></span></label>
+    <label><input type="radio" name="theme" value="light" aria-label="Day"><span title="Day"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span></label>
+    <label><input type="radio" name="theme" value="system" aria-label="Auto" checked><span title="Auto"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></span></label>
+  </fieldset>
+</div></header>
+
+<main id="top">
+  <section class="hero" style="padding-top:32px"><div><a class="btn" href="../" style="margin-bottom:20px">← Back to home</a><h1>Resume</h1><p class="role">Kushaagra Shrivastava · SDE @ IBM · Bangalore</p></div></section>
+
+  <section id="summary">
+    <h2>Summary</h2>
+    <div class="card">
+      <p>Software engineer and technical product owner at IBM India Software Labs. I speed up Apache Spark and Iceberg workloads for enterprise clients, and I contribute to Apache Gluten. I turn complex data pipelines and AI research into workflows that clients trust. I scope requirements with clients, write PRDs, prototype features end to end, and lead cross-functional work. My results are speed, cost savings and reliability at enterprise scale.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="stack">
+      <article class="card" id="ibm-sde">
+        <div class="row"><h3>Software Development Engineer 1 / Technical Product Owner · IBM India Software Labs</h3><span class="meta">Jul 2025 – Present</span></div>
+        <p class="meta">Bangalore</p>
+        <ul>
+          <li><b>Spark acceleration.</b> Helped win a Fortune 500 competitive displacement. Tuned Spark (configs, Gluten, I/O) for a 4x speed-up on a 4.5 TB TPC-DS workload. This beat the industry standard by 4%.</li>
+          <li><b>Iceberg optimizer.</b> Built an Apache Iceberg microservice that automates bottleneck analysis and lifecycle management. Streaming throughput rose 80% and batch 40% at 10 TB scale. Query latency fell 40–80%.</li>
+          <li><b>Lakehouse telemetry.</b> Designed a query logging and analysis framework for Spark engines. It uses Spark listeners and Kafka to capture live telemetry and rebuild queries from logical and physical plans.</li>
+          <li><b>DevSecOps.</b> Cut Kubernetes CI/CD image build time by 70% (14 to 4 hours). Built an LLM-powered pipeline that scans dependency trees and patches vulnerabilities across 60+ microservices.</li>
+          <li><b>Product ownership.</b> Worked with enterprise clients to scope requirements, shaped architecture in executive reviews, and ran pipelines across a 4-country matrix (US, Canada, Saudi Arabia, India).</li>
+          <li><b>Prototypes.</b> Co-built two AI and analytics prototypes, including an NLP query engine, and pitched them to Distinguished Engineers.</li>
+        </ul>
+      </article>
+      <article class="card" id="ibm-intern">
+        <div class="row"><h3>SDE Intern · IBM India Software Labs</h3><span class="meta">Jan 2025 – Jul 2025</span></div>
+        <ul>
+          <li>Built a benchmarking suite with Microsoft Lakebench to load-test Apache Iceberg workloads. It gave data-driven input for storage tuning, with a Canadian subject-matter expert.</li>
+          <li>Led the end-to-end integration of Azure Data Lake Storage (ADLS) support for Iceberg storage engines, across global engineering teams.</li>
+        </ul>
+      </article>
+      <article class="card" id="linksmart">
+        <div class="row"><h3>Tech Intern, Product Engineering · Linksmart Technologies</h3><span class="meta">Jun 2023 – Aug 2023</span></div>
+        <p class="meta">Bangalore</p>
+        <ul>
+          <li>Built real-time image transfer with WebRTC and ASGI. Cut supply-chain scan latency by 90% (30 s to 2–3 s) with a Core ML model. The demos helped secure angel investment.</li>
+          <li>Built React/Django dashboards with Google Maps and OpenStreetMap, plus AWS-based 2FA. Showed live track-and-trace at a national tech showcase.</li>
+          <li>Trained image classifiers in PyTorch (CNNs and RNNs).</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="open-source">
+    <h2>Open source · Apache Gluten</h2>
+    <p class="meta" style="margin-bottom:14px">Gluten offloads JVM SQL engine execution (Spark) to native engines such as Velox. My pull requests to <a href="https://github.com/apache/gluten" target="_blank" rel="noopener noreferrer">apache/gluten</a>, as of 5 Nov 2026:</p>
+    <div class="stack">
+      <a class="card pr" href="https://github.com/apache/gluten/pull/12663" target="_blank" rel="noopener noreferrer">
+        <div class="row"><h3>#12663 Move x86/arm vcpkg native-lib build from CentOS 7 to AlmaLinux 8</h3><span class="status merged">Merged</span></div>
+        <span class="meta">Updates the native-library CI jobs. Part 2 of GLUTEN-12412.</span>
+      </a>
+      <a class="card pr" href="https://github.com/apache/gluten/pull/12757" target="_blank" rel="noopener noreferrer">
+        <div class="row"><h3>#12757 Add AlmaLinux 8 vcpkg static build CI image</h3><span class="status merged">Merged</span></div>
+        <span class="meta">The base image the migration needs. Part 1 of GLUTEN-12412.</span>
+      </a>
+      <a class="card pr" href="https://github.com/apache/gluten/pull/13278" target="_blank" rel="noopener noreferrer">
+        <div class="row"><h3>#13278 Translate Java regex patterns to RE2, with fallback for unsupported parts</h3><span class="status open">Open</span></div>
+        <span class="meta">Velox executes regexes with RE2, which rejects Java's \uXXXX escapes. Such patterns forced the whole operator back to Spark. This translates them first.</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education &amp; skills</h2>
+    <div class="stack">
+      <article class="card" id="btech">
+        <div class="row"><h3>B.Tech, Computer Science &amp; Engineering · PES University</h3><span class="meta">Dec 2021 – May 2025</span></div>
+        <p>CGPA 8.74 / 10. Top 20% of the batch. Merit scholarship.</p>
+        <p class="meta">Student Coordinator, Writing &amp; Book Club · Co-Finance and Events Coordinator, Maaya Annual Festival · Marketing Head, Literary Club</p>
+      </article>
+      <article class="card skills">
+        <p><b>Product &amp; analytics:</b> Product strategy, PRD writing, client engagement, market forecasting, prompt engineering, Excel, PowerBI, SQL</p>
+        <p><b>Languages:</b> Java, Scala, Python, Bash</p>
+        <p><b>Data:</b> Apache Spark, Apache Iceberg, Apache Kafka, Gluten, SQL</p>
+        <p><b>AI:</b> GenAI, LLM-driven automation</p>
+        <p><b>Cloud &amp; infra:</b> Azure (ADLS), AWS, Kubernetes, Docker, Git</p>
+        <p><b>Certifications:</b> Google Data Analytics Professional Certificate · Oracle Cloud Foundations · Atlassian Jira Work Management and Trello Fundamentals</p>
+      </article>
+    </div>
+  </section>
+</main>
+<footer>© Kushaagra Shrivastava · <a href="../">Home</a> · <a href="../socials/">/socials</a> · <a data-email href="#">Email</a></footer>
+</body>
+</html>
